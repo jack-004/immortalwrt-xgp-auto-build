@@ -35,8 +35,8 @@ git restore --source=c434d02009649241e58e615d8c0666730bf01655 target/linux/rockc
 echo "add feeds"
 cat feeds.conf.default > feeds.conf
 echo "" >> feeds.conf
-# echo "src-git qmodem https://github.com/FUjr/QModem.git;main" >> feeds.conf
-echo "src-git qmodem https://github.com/zzzz0317/QModem.git;v3.0.1" >> feeds.conf
+echo "src-git qmodem https://github.com/FUjr/QModem.git;main" >> feeds.conf
+# echo "src-git qmodem https://github.com/zzzz0317/QModem.git;v3.0.1" >> feeds.conf
 echo "src-git istore https://github.com/linkease/istore;main" >> feeds.conf
 echo "update files"
 rm -rf files
